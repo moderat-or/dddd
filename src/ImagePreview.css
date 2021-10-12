@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 40px;
+    background-color: black;
+    text-align: center;
+}
+.logo-t{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+.add_btn{
+    display: flex;
+    flex-direction: row;
+}
+.add-block{
+    flex: 1;
+    background-color: whitesmoke;
+    vertical-align: ;
+}
+.buttons{
+    flex: 1;
+}
+.btn{
+    width: 75px;
+    height: 35px;
+    background-color: lightcyan;
+    border-radius: 15px;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    border: gray solid 2px;
+}
+img{
+    width: 50%;
+    margin-left: 25%;
+}
