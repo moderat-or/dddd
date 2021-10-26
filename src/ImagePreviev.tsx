@@ -18,7 +18,7 @@ export const ImagePreview: React.FC = () => {
     : mergeFilters;
   mergeFilters = isBW ? mergeFilters + " grayscale(100%)" : mergeFilters;
   mergeFilters = isSepia ? mergeFilters + "sepia(60%)" : mergeFilters;
-
+  
   return (
     <>
     <div className="main-div">
@@ -28,7 +28,7 @@ export const ImagePreview: React.FC = () => {
         <div className="add_btn">
         <div className="add-block">
       Please choose image:{" "}
-      <input type="file" accept="image/*" onChange={onImageSelected} />
+      <input className="add" type="file" accept="image/*" onChange={onImageSelected} />
       </div>
       <div className="buttons">
       <button className="btn" onClick={() => setIsBW(!isBW)}>
