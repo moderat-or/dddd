@@ -4,8 +4,11 @@
 }
 header{
     height: 40px;
-    background-color: black;
+    background-color: rgb(107, 105, 105);
     text-align: center;
+}
+body{
+    background-color: #22252e;
 }
 .logo-t{
     font-size: 28px;
@@ -18,21 +21,25 @@ header{
 }
 .add-block{
     flex: 1;
-    background-color: whitesmoke;
-    vertical-align: ;
+    background-color: #353942;
+    color: white;
+}
+.add{
+    color: white;
+    border: gray 1px solid;
 }
 .buttons{
     flex: 1;
+    background-color: #353942;
 }
 .btn{
     width: 75px;
-    height: 35px;
-    background-color: lightcyan;
-    border-radius: 15px;
+    height: 30px;
+    background-color: #6e6e6e;
     margin-right: 30px;
     font-size: 15px;
     font-weight: 400;
-    border: gray solid 2px;
+    color: white;
 }
 img{
     width: 50%;
